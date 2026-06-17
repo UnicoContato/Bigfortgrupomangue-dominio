@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmácias Bigfort | BIG na economia, FORTE na qualidade</title>
+    <meta name="description" content="Aproveite nossos serviços e compre produtos com os menores preços. Delivery, conforto, economia e satisfação nas Farmácias Bigfort.">
+    <meta property="og:title" content="Farmácias Bigfort | Excelência em Saúde">
+    <meta property="og:description" content="Descontos especiais e a maior qualidade para o seu bem-estar.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://bigfortgrupomangue.com.br">
+    <meta property="og:image" content="http://bigfortgrupomangue.com.br/img/og-image.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:ital,wght@0,400;0,600;0,800;0,900;1,800;1,900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        bigdark: '#28348A',
+                        biglight: '#524D9A',
+                        bigred: '#E2072F',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans overflow-x-hidden antialiased">
+
+    <div class="fixed top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
+        <div class="absolute -top-40 -left-40 w-[600px] h-[600px] bg-bigdark rounded-full blur-[150px] opacity-25"></div>
+        <div class="absolute top-1/4 -right-40 w-[700px] h-[700px] bg-bigred rounded-full blur-[150px] opacity-15"></div>
+        <div class="absolute -bottom-40 left-1/3 w-[500px] h-[500px] bg-biglight rounded-full blur-[150px] opacity-20"></div>
+    </div>
+
+    <header id="dynamic-header" class="fixed top-0 left-0 w-full z-50 transition-transform duration-300 backdrop-blur-xl bg-white/80 border-b border-bigdark/10 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            
+            <!-- LOGOTIPO PRIMÁRIO BIGFORT -->
+            <a href="#inicio" class="flex items-center transition-transform hover:scale-105">
+                <div class="flex flex-col justify-center text-left -space-y-2 sm:-space-y-3">
+                    <span class="text-bigdark text-[10px] sm:text-[11px] font-black tracking-widest italic uppercase">Farmácias</span>
+                    <span class="text-4xl sm:text-[42px] font-heading font-black tracking-tighter text-bigred lowercase italic leading-none pt-1">bigfort</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-8 font-bold text-slate-700">
+                <a href="#inicio" class="hover:text-bigred transition-colors">Início</a>
+                <a href="#sobre" class="hover:text-bigred transition-colors">Sobre Nós</a>
+                <a href="#servicos" class="hover:text-bigred transition-colors">Serviços</a>
+                <a href="#lojas" class="hover:text-bigred transition-colors">Lojas</a>
+            </nav>
+
+            <div class="hidden md:flex items-center space-x-3">
+                <a href="#lojas" class="flex items-center space-x-2 bg-bigred hover:bg-red-700 text-white px-6 py-2.5 rounded-full font-bold shadow-lg shadow-red-600/30 transition-transform transform hover:scale-105">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    <span>Delivery no WhatsApp</span>
+                </a>
+            </div>
+
+            <button id="mobile-menu-btn" class="md:hidden text-bigdark focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white/95 backdrop-blur-xl border-b border-slate-200 px-4 pt-2 pb-6 space-y-3 shadow-lg">
+            <a href="#inicio" class="block text-lg font-bold text-slate-700 py-2">Início</a>
+            <a href="#sobre" class="block text-lg font-bold text-slate-700 py-2">Sobre Nós</a>
+            <a href="#servicos" class="block text-lg font-bold text-slate-700 py-2">Serviços</a>
+            <a href="#lojas" class="block text-lg font-bold text-slate-700 py-2">Lojas</a>
+            <div class="pt-4 flex flex-col space-y-3">
+                <a href="#lojas" class="flex items-center justify-center space-x-2 bg-bigred text-white py-3 rounded-xl font-bold">
+                    <span>Acessar Delivery</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="relative min-h-screen flex items-center justify-center pt-20 px-4">
+        <div class="relative max-w-5xl mx-auto text-center z-20 reveal backdrop-blur-2xl bg-white/60 border border-white/80 p-8 sm:p-16 rounded-3xl shadow-2xl">
+            <span class="inline-block px-6 py-2 rounded-full text-sm font-bold bg-biglight/20 text-bigdark mb-6 uppercase tracking-widest shadow-sm">
+                BIG na economia, FORTE na qualidade
+            </span>
+            <h1 class="font-heading text-5xl sm:text-7xl font-black tracking-tighter mb-6 text-slate-900 uppercase">
+                Excelência e <br/><span class="text-bigred">Menor Preço</span>
+            </h1>
+            <p class="text-xl sm:text-2xl text-slate-700 font-medium max-w-3xl mx-auto mb-10 leading-relaxed">
+                Aproveite nosso serviço de delivery e compre produtos com os descontos especiais que preparamos para o seu conforto, sem sair de casa.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#lojas" class="w-full sm:w-auto px-10 py-4 bg-bigdark hover:bg-blue-900 text-white font-bold text-lg rounded-xl shadow-xl shadow-blue-900/30 transition-transform transform hover:scale-105 uppercase tracking-wide">
+                    Nossas Lojas
+                </a>
+                <a href="#sobre" class="w-full sm:w-auto px-10 py-4 bg-white hover:bg-slate-50 text-bigdark font-bold text-lg rounded-xl shadow-lg transition-colors uppercase tracking-wide border-2 border-slate-200">
+                    Conheça a Rede
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-24 relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="reveal backdrop-blur-xl bg-white/80 border border-white rounded-3xl p-8 sm:p-16 shadow-xl">
+            <div class="text-center mb-12">
+                <h2 class="font-heading text-4xl sm:text-5xl font-black mb-6 text-bigdark uppercase tracking-tight">Sobre Nós</h2>
+                <div class="w-24 h-2 bg-bigred mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 text-left">
+                <div class="bg-white p-8 sm:p-10 rounded-2xl shadow-lg border border-slate-100 hover:-translate-y-1 transition-transform">
+                    <h3 class="font-heading text-3xl font-black text-bigdark uppercase mb-4 flex items-center gap-3">
+                        <span class="w-10 h-10 bg-bigred text-white flex items-center justify-center rounded-lg">🎯</span> Missão
+                    </h3>
+                    <p class="text-slate-600 font-medium leading-relaxed text-lg">
+                        Tornar a Bigfort uma marca nacional, com o mais alto padrão de qualidade de gestão, produtos e serviços na área de farmácia.
+                    </p>
+                </div>
+                
+                <div class="bg-white p-8 sm:p-10 rounded-2xl shadow-lg border border-slate-100 hover:-translate-y-1 transition-transform">
+                    <h3 class="font-heading text-3xl font-black text-bigdark uppercase mb-4 flex items-center gap-3">
+                        <span class="w-10 h-10 bg-biglight text-white flex items-center justify-center rounded-lg">👁️</span> Visão
+                    </h3>
+                    <p class="text-slate-600 font-medium leading-relaxed text-lg">
+                        Ser reconhecida pelos fornecedores, prestadores de serviço e associados como uma rede que trabalha incansavelmente para que tenha reciprocidade e longevidade nos acordos comerciais realizados pela administração central.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="py-24 relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 reveal">
+            <h2 class="font-heading text-4xl sm:text-5xl font-black text-bigdark uppercase tracking-tight">Nossos Serviços</h2>
+            <div class="w-24 h-2 bg-bigred mx-auto mt-6 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="reveal bg-white rounded-3xl p-10 shadow-xl border border-slate-100 text-center transition-transform hover:-translate-y-2 group">
+                <div class="w-20 h-20 bg-biglight/10 rounded-2xl flex items-center justify-center mx-auto mb-6 text-bigdark group-hover:bg-bigdark group-hover:text-white transition-colors duration-300">
+                    <svg class="w-12 h-12 mx-auto" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="currentColor">
+                            <path fill="none" d="M0 0H24V24H0z" />
+                            <path d="M19 2v2h-2v3c1.657 0 3 1.343 3 3v11c0 .552-.448 1-1 1H5c-.552 0-1-.448-1-1V10c0-1.657 1.343-3 3-3V4H5V2h14zm-2 7H7c-.552 0-1 .448-1 1v10h12V10c0-.552-.448-1-1-1zm-4 2v2h2v2h-2.001L13 17h-2l-.001-2H9v-2h2v-2h2zm2-7H9v3h6V4z" />
+                        </g>
+                    </svg>
+                </div>
+                <h3 class="font-heading text-2xl font-black text-slate-800 mb-4 uppercase">Medicamentos</h3>
+                <p class="text-slate-600 font-medium leading-relaxed">
+                    Satisfação garantida na hora de cuidar da sua saúde. Ampla variedade e economia imbatível para todos os tratamentos.
+                </p>
+            </div>
+
+            <div class="reveal bg-white rounded-3xl p-10 shadow-xl border border-slate-100 text-center transition-transform hover:-translate-y-2 group">
+                <div class="w-20 h-20 bg-bigred/10 rounded-2xl flex items-center justify-center mx-auto mb-6 text-bigred group-hover:bg-bigred group-hover:text-white transition-colors duration-300">
+                    <svg class="w-12 h-12 mx-auto" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 442 442">
+                        <g>
+                            <path d="M231.5,50.5c0-5.79-4.71-10.5-10.5-10.5c-5.79,0-10.5,4.71-10.5,10.5S215.21,61,221,61C226.79,61,231.5,56.29,231.5,50.5z" />
+                            <path d="M346,163.682h-60V122c0-5.522-4.478-10-10-10h-10V10c0-5.523-4.478-10-10-10h-70c-5.523,0-10,4.477-10,10v102h-10 c-5.523,0-10,4.478-10,10v41.682H96c-11.028,0-20,8.972-20,20V422c0,11.028,8.972,20,20,20h250c11.028,0,20-8.972,20-20V183.682 C366,172.653,357.028,163.682,346,163.682z M196,20h50v92h-50V20z M96,422V183.682h70c5.523,0,10-4.477,10-10V132h35v71.682h-85 c-5.523,0-10,4.478-10,10V392c0,5.522,4.477,10,10,10h190c5.522,0,10-4.478,10-10v-60.892c0-5.522-4.478-10-10-10s-10,4.478-10,10 V382H136V223.682h75V352c0,5.522,4.477,10,10,10c5.523,0,10-4.478,10-10V223.682h75V297c0,5.522,4.478,10,10,10s10-4.478,10-10 v-83.318c0-5.522-4.478-10-10-10h-85V132h35v41.682c0,5.523,4.478,10,10,10h70L346.002,422H96z" />
+                        </g>
+                    </svg>
+                </div>
+                <h3 class="font-heading text-2xl font-black text-slate-800 mb-4 uppercase">Perfumaria</h3>
+                <p class="text-slate-600 font-medium leading-relaxed">
+                    Sua rotina de higiene e beleza com total excelência. Desfrute das melhores marcas do mercado para o seu bem-estar.
+                </p>
+            </div>
+
+            <div class="reveal bg-white rounded-3xl p-10 shadow-xl border border-slate-100 text-center transition-transform hover:-translate-y-2 group">
+                <div class="w-20 h-20 bg-biglight/10 rounded-2xl flex items-center justify-center mx-auto mb-6 text-biglight group-hover:bg-biglight group-hover:text-white transition-colors duration-300">
+                    <svg class="w-12 h-12 mx-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="10" cy="6" r="4" stroke="currentColor" stroke-width="2"/>
+                        <path d="M19 2C19 2 21 3.2 21 6C21 8.8 19 10 19 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M17 4C17 4 18 4.6 18 6C18 7.4 17 8 17 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M17.9975 18C18 17.8358 18 17.669 18 17.5C18 15.0147 14.4183 13 10 13C5.58172 13 2 15.0147 2 17.5C2 19.9853 2 22 10 22C12.231 22 13.8398 21.8433 15 21.5634" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3 class="font-heading text-2xl font-black text-slate-800 mb-4 uppercase">Atendimento</h3>
+                <p class="text-slate-600 font-medium leading-relaxed">
+                    Equipe qualificada atuando de forma sincera e transparente, focada em entregar o mais alto padrão de qualidade todos os dias.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="lojas" class="py-24 relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 reveal">
+            <h2 class="font-heading text-4xl sm:text-5xl font-black text-bigdark uppercase tracking-tight">Nossas Lojas</h2>
+            <p class="text-lg text-slate-600 mt-4 font-medium">A comodidade de ter a Bigfort sempre perto. Confira nossas unidades e peça pelo Delivery!</p>
+            <div class="w-24 h-2 bg-bigred mx-auto mt-6 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            
+            <!-- Loja 01 -->
+            <div class="reveal bg-white rounded-2xl p-6 shadow-md hover:shadow-xl border border-slate-200 transition-all flex flex-col h-full relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-16 h-16 bg-bigdark/5 rounded-bl-full"></div>
+                <div class="mb-3">
+                    <span class="inline-block px-2 py-1 rounded bg-bigdark text-white text-xs font-bold uppercase mb-2">Mogi Mirim</span>
+                    <h3 class="font-heading text-xl font-black text-slate-800 uppercase">LOJA 01</h3>
+                    <p class="text-[10px] text-slate-400 font-bold uppercase truncate" title="DROGARIA VIVA FARMA MOGI MIRIM LTDA DEMAIS">VIVA FARMA MOGI MIRIM LTDA</p>
+                    <p class="text-[10px] text-slate-500 font-semibold mt-0.5">CNPJ: 13.140.477/0001-14</p>
+                </div>
+                <p class="text-xs text-slate-600 font-medium mb-4 flex-grow leading-relaxed">
+                    Av. Pedro Botesi, Nº 2.224<br/>Jd. Scomparin - CEP: 13.806-635
+                </p>
+                <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 mb-4 text-xs font-semibold">
+                    <p class="flex justify-between"><span>Todos os Dias:</span> <strong class="text-bigred">06:00 - 23:00</strong></p>
+                </div>
+                <a href="https://wa.me/5519991954620" target="_blank" class="w-full text-center bg-[#25D366] hover:bg-[#1da851] text-white py-2.5 rounded-lg font-bold text-sm transition-colors">
+                    Falar Agora
+                </a>
+            </div>
+
+            <!-- Loja 03 -->
+            <div class="reveal bg-white rounded-2xl p-6 shadow-md hover:shadow-xl border border-slate-200 transition-all flex flex-col h-full relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-16 h-16 bg-bigdark/5 rounded-bl-full"></div>
+                <div class="mb-3">
+                    <span class="inline-block px-2 py-1 rounded bg-bigdark text-white text-xs font-bold uppercase mb-2">Mogi Mirim</span>
+                    <h3 class="font-heading text-xl font-black text-slate-800 uppercase">LOJA 03</h3>
+                    <p class="text-[10px] text-slate-400 font-bold uppercase truncate">DROGARIA MANGUE E ARAÚJO LTDA</p>
+                    <p class="text-[10px] text-slate-500 font-semibold mt-0.5">CNPJ: 17.280.086/0001-56</p>
+                </div>
+                <p class="text-xs text-slate-600 font-medium mb-4 flex-grow leading-relaxed">
+                    Rua dos Ipês, Nº 22<br/>Jd. Europa - CEP: 13.802-445
+                </p>
+                <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 mb-4 text-xs font-semibold">
+                    <p class="flex justify-between"><span>Todos os Dias:</span> <strong class="text-bigred">06:00 - 23:00</strong></p>
+                </div>
+                <a href="https://wa.me/5519988940634" target="_blank" class="w-full text-center bg-[#25D366] hover:bg-[#1da851] text-white py-2.5 rounded-lg font-bold text-sm transition-colors">
+                    Falar Agora
+                </a>
+            </div>
+
+            <!-- Loja 04 -->
+            <div class="reveal bg-white rounded-2xl p-6 shadow-md hover:shadow-xl border border-slate-200 transition-all flex flex-col h-full relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-16 h-16 bg-bigdark/5 rounded-bl-full"></div>
+                <div class="mb-3">
+                    <span class="inline-block px-2 py-1 rounded bg-bigdark text-white text-xs font-bold uppercase mb-2">Mogi Mirim</span>
+                    <h3 class="font-heading text-xl font-black text-slate-800 uppercase">LOJA 04</h3>
+                    <p class="text-[10px] text-slate-400 font-bold uppercase truncate" title="L.H MANGUE DE ARAUJO E ARAUJO DROGARIA LTDA - EPP">L.H MANGUE DE ARAUJO LTDA</p>
+                    <p class="text-[10px] text-slate-500 font-semibold mt-0.5">CNPJ: 30.497.822/0001-90</p>
+                </div>
+                <p class="text-xs text-slate-600 font-medium mb-4 flex-grow leading-relaxed">
+                    Av. 22 de Outubro, Nº 1.394, Sl 1-2-3<br/>Jd. Sta Helena - CEP: 13.806-050
+                </p>
+                <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 mb-4 text-xs font-semibold">
+                    <p class="flex justify-between"><span>Todos os Dias:</span> <strong class="text-bigred">06:00 - 23:00</strong></p>
+                </div>
+                <a href="https://wa.me/5519988942719" target="_blank" class="w-full text-center bg-[#25D366] hover:bg-[#1da851] text-white py-2.5 rounded-lg font-bold text-sm transition-colors">
+                    Falar Agora
+                </a>
+            </div>
+
+            <!-- Loja 05 -->
+            <div class="reveal bg-white rounded-2xl p-6 shadow-md hover:shadow-xl border border-slate-200 transition-all flex flex-col h-full relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-16 h-16 bg-bigdark/5 rounded-bl-full"></div>
+                <div class="mb-3">
+                    <span class="inline-block px-2 py-1 rounded bg-bigred text-white text-xs font-bold uppercase mb-2">Mogi Guaçu</span>
+                    <h3 class="font-heading text-xl font-black text-slate-800 uppercase">LOJA 05</h3>
+                    <p class="text-[10px] text-slate-400 font-bold uppercase truncate">DROGARIA TEIXEIRA & ARAUJO</p>
+                    <p class="text-[10px] text-slate-500 font-semibold mt-0.5">CNPJ: 20.195.724/0001-45</p>
+                </div>
+                <p class="text-xs text-slate-600 font-medium mb-4 flex-grow leading-relaxed">
+                    Rua Nunes Pedrosa, Nº 302<br/>Bairro do Lote - CEP: 13.840-106
+                </p>
+                <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 mb-4 text-xs font-semibold space-y-1">
+                    <p class="flex justify-between"><span>Seg a Sáb:</span> <strong class="text-bigred">07:00 - 22:00</strong></p>
+                    <p class="flex justify-between"><span>Domingo:</span> <strong class="text-bigred">08:00 - 22:00</strong></p>
+                </div>
+                <a href="https://wa.me/5519988942909" target="_blank" class="w-full text-center bg-[#25D366] hover:bg-[#1da851] text-white py-2.5 rounded-lg font-bold text-sm transition-colors mt-auto">
+                    Falar Agora
+                </a>
+            </div>
+
+            <!-- Loja 12 -->
+            <div class="reveal bg-white rounded-2xl p-6 shadow-md hover:shadow-xl border border-slate-200 transition-all flex flex-col h-full relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-16 h-16 bg-bigdark/5 rounded-bl-full"></div>
+                <div class="mb-3">
+                    <span class="inline-block px-2 py-1 rounded bg-bigdark text-white text-xs font-bold uppercase mb-2">Mogi Mirim</span>
+                    <h3 class="font-heading text-xl font-black text-slate-800 uppercase">LOJA 12</h3>
+                    <p class="text-[10px] text-slate-400 font-bold uppercase truncate">G.L.L.M. DE ARAUJO-DROGARIA</p>
+                    <p class="text-[10px] text-slate-500 font-semibold mt-0.5">CNPJ: 15.685.374/0003-27</p>
+                </div>
+                <p class="text-xs text-slate-600 font-medium mb-4 flex-grow leading-relaxed">
+                    Rua Antonio Moreno Perez, Nº 623<br/>Jd Maria Beatriz - CEP: 13803-010
+                </p>
+                <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 mb-4 text-xs font-semibold">
+                    <p class="flex justify-between"><span>Todos os Dias:</span> <strong class="text-bigred">06:00 - 22:00</strong></p>
+                </div>
+                <a href="https://wa.me/551935499267" target="_blank" class="w-full text-center bg-[#25D366] hover:bg-[#1da851] text-white py-2.5 rounded-lg font-bold text-sm transition-colors mt-auto">
+                    Falar Agora
+                </a>
+            </div>
+
+            <!-- Loja 13 -->
+            <div class="reveal bg-white rounded-2xl p-6 shadow-md hover:shadow-xl border border-slate-200 transition-all flex flex-col h-full relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-16 h-16 bg-bigdark/5 rounded-bl-full"></div>
+                <div class="mb-3">
+                    <span class="inline-block px-2 py-1 rounded bg-bigred text-white text-xs font-bold uppercase mb-2">Mogi Guaçu</span>
+                    <h3 class="font-heading text-xl font-black text-slate-800 uppercase">LOJA 13</h3>
+                    <p class="text-[10px] text-slate-400 font-bold uppercase truncate">G.L.L.M. DE ARAUJO-DROGARIA</p>
+                    <p class="text-[10px] text-slate-500 font-semibold mt-0.5">CNPJ: 15.685.374/0004-08</p>
+                </div>
+                <p class="text-xs text-slate-600 font-medium mb-4 flex-grow leading-relaxed">
+                    Av. Padre Jaime, C/ Franco de Godoy, Nº 1410<br/>Jd Planalto Verde - CEP: 13.843-085
+                </p>
+                <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 mb-4 text-xs font-semibold">
+                    <p class="flex justify-between"><span>Todos os Dias:</span> <strong class="text-bigred">06:00 - 23:00</strong></p>
+                </div>
+                <a href="https://wa.me/5519999456320" target="_blank" class="w-full text-center bg-[#25D366] hover:bg-[#1da851] text-white py-2.5 rounded-lg font-bold text-sm transition-colors mt-auto">
+                    Falar Agora
+                </a>
+            </div>
+
+            <!-- Loja 16 -->
+            <div class="reveal bg-white rounded-2xl p-6 shadow-md hover:shadow-xl border border-slate-200 transition-all flex flex-col h-full relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-16 h-16 bg-bigdark/5 rounded-bl-full"></div>
+                <div class="mb-3">
+                    <span class="inline-block px-2 py-1 rounded bg-bigred text-white text-xs font-bold uppercase mb-2">Mogi Guaçu</span>
+                    <h3 class="font-heading text-xl font-black text-slate-800 uppercase">LOJA 16</h3>
+                    <p class="text-[10px] text-slate-400 font-bold uppercase truncate">G.L.L.M. DE ARAUJO-DROGARIA</p>
+                    <p class="text-[10px] text-slate-500 font-semibold mt-0.5">CNPJ: 15.685.374/0006-70</p>
+                </div>
+                <p class="text-xs text-slate-600 font-medium mb-4 flex-grow leading-relaxed">
+                    Avenida Bandeirantes Nº 891 e 897<br/>Vila Pinheiro - CEP: 13.845-440
+                </p>
+                <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 mb-4 text-xs font-semibold">
+                    <p class="flex justify-between"><span>Todos os Dias:</span> <strong class="text-bigred">06:00 - 23:00</strong></p>
+                </div>
+                <a href="https://wa.me/5519996687060" target="_blank" class="w-full text-center bg-[#25D366] hover:bg-[#1da851] text-white py-2.5 rounded-lg font-bold text-sm transition-colors mt-auto">
+                    Falar Agora
+                </a>
+            </div>
+
+            <!-- Loja 18 -->
+            <div class="reveal bg-white rounded-2xl p-6 shadow-md hover:shadow-xl border border-slate-200 transition-all flex flex-col h-full relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-16 h-16 bg-bigdark/5 rounded-bl-full"></div>
+                <div class="mb-3">
+                    <span class="inline-block px-2 py-1 rounded bg-bigred text-white text-xs font-bold uppercase mb-2">Mogi Guaçu</span>
+                    <h3 class="font-heading text-xl font-black text-slate-800 uppercase">LOJA 18</h3>
+                    <p class="text-[10px] text-slate-400 font-bold uppercase truncate">G.L.L.M. DE ARAUJO-DROGARIA</p>
+                    <p class="text-[10px] text-slate-500 font-semibold mt-0.5">CNPJ: 15.685.374/0010-56</p>
+                </div>
+                <p class="text-xs text-slate-600 font-medium mb-4 flex-grow leading-relaxed">
+                    Avenida Emília Marchi Martini Nº 1251<br/>Jardim Soares - CEP: 13.840-090
+                </p>
+                <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 mb-4 text-xs font-semibold">
+                    <p class="flex justify-between"><span>Todos os Dias:</span> <strong class="text-bigred">06:00 - 23:00</strong></p>
+                </div>
+                <a href="https://wa.me/5519998040928" target="_blank" class="w-full text-center bg-[#25D366] hover:bg-[#1da851] text-white py-2.5 rounded-lg font-bold text-sm transition-colors mt-auto">
+                    Falar Agora
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 py-16 relative z-20 border-t-[12px] border-bigdark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-8 text-white">
+            
+            <!-- LOGOTIPO NEGATIVO BIGFORT (Apenas Tipografia) -->
+            <div class="flex items-center justify-center sm:justify-start">
+                <div class="flex flex-col justify-center text-left -space-y-2 sm:-space-y-3">
+                    <span class="text-white text-[10px] sm:text-[11px] font-black tracking-widest italic uppercase">Farmácias</span>
+                    <span class="text-4xl sm:text-[42px] font-heading font-black tracking-tighter text-white lowercase italic leading-none pt-1">bigfort</span>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:items-end gap-3 text-sm font-medium text-slate-400">
+                <p>Todas as unidades citadas compõem o grupo administrativo central.</p>
+                <p>© 2026 Farmácias Bigfort. Todos os direitos reservados.</p>
+                <button id="open-privacy-btn" class="text-biglight hover:text-white transition-colors focus:outline-none uppercase tracking-wider font-bold">
+                    Política de Privacidade
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <div id="privacy-modal" class="fixed inset-0 z-50 overflow-y-auto hidden">
+        <div class="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+            <div id="close-privacy-overlay" class="fixed inset-0 transition-opacity backdrop-blur-md bg-slate-900/60"></div>
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">​</span>
+            <div class="inline-block align-bottom bg-white rounded-3xl text-left overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-2xl sm:w-full border-t-8 border-bigdark">
+                <div class="p-8 space-y-6">
+                    <div class="flex items-center justify-between border-b border-slate-200 pb-4">
+                        <h3 class="font-heading text-2xl font-black text-slate-800 uppercase">Política de Privacidade</h3>
+                        <button id="close-privacy-btn" class="text-slate-400 hover:text-bigred text-3xl font-black transition-colors">&times;</button>
+                    </div>
+                    <div class="text-slate-700 font-medium text-base space-y-4 leading-relaxed max-h-[60vh] overflow-y-auto pr-4 custom-scrollbar">
+                        <p>Este site é estritamente institucional e foi desenvolvido para apresentar as unidades, contatos, serviços e horários de funcionamento da rede Bigfort.</p>
+                        <p><strong class="text-bigdark">1. Coleta de Dados:</strong> Informamos expressamente que não realizamos nenhum tipo de coleta, armazenamento, compartilhamento ou processamento automatizado de dados pessoais dos usuários através deste endereço eletrônico.</p>
+                        <p><strong class="text-bigdark">2. Links Externos:</strong> Nosso site disponibiliza links diretos de direcionamento para o WhatsApp, com a única finalidade de otimizar o atendimento ao cliente e ativar ofertas. Ao clicar e ser redirecionado, o tratamento de dados seguirá as políticas de privacidade da respectiva plataforma de mensagens.</p>
+                        <p><strong class="text-bigdark">3. Cookies:</strong> Esta página não implementa cookies de rastreamento comercial ou marketing.</p>
+                    </div>
+                    <div class="pt-6 border-t border-slate-200 flex justify-end">
+                        <button id="close-privacy-confirm" class="bg-bigdark hover:bg-blue-900 text-white px-8 py-3 rounded-xl font-bold uppercase tracking-wide transition-colors">
+                            Ciente e Fechar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
