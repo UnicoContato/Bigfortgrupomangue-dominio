@@ -115,3 +115,32 @@ html {
   background: #cbd5e1;
   border-radius: 4px;
 }
+.logo-header {
+  width: clamp(150px, 18vw, 220px);
+  height: auto;
+  display: block;
+}
+
+.logo-footer {
+  width: clamp(150px, 18vw, 220px);
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .logo-header,
+  .logo-footer {
+    width: 145px;
+  }
+}
+.logo-footer {
+  width: clamp(150px, 18vw, 220px);
+  height: auto;
+  display: block;
+}
+
+.footer-logo-box {
+  background: #ffffff;
+  padding: 10px 14px;
+  border-radius: 12px;
+}
